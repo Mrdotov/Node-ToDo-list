@@ -1,0 +1,18 @@
+{
+  "name": "task-3",
+  "version": "1.0.0",
+  "description": "First step\r We download required libraries\r Nodemon -\r Express -\r Mongoose -\r Second step",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "mongoose": "^7.2.0",
+    "nodemon": "^2.0.22"
+  }
+}
