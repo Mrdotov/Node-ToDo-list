@@ -1,0 +1,8 @@
+*{
+    margin: 0;
+    padding: 30;
+    box-sizing: border-box;
+}
+.block{
+    background: #000;
+}
