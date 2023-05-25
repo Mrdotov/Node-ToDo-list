@@ -1,22 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Todo-list</title>
+  <%- include('./partials/head.ejs') %>
 
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="./style.css">
-</head>
 <body>
-  <nav>
-    <ul>
-      <li><a href="/">Home</a></li>
-      <li><a href="/tasks">Tasks</a></li>
-      <li><a href="/add-task">New Task</a></li>
-     
-    </ul>
-  </nav>
+<%- include('./partials/nav.ejs') %>
+
   <article>
     <div class="info">
       <span>05.05.2021</span>

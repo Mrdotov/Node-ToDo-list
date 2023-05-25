@@ -3,7 +3,7 @@ const path = require('path')
 
 const Post = require('./post');
 
-const { default: mongoose } = require('mongoose');
+const mongoose = require('mongoose');
 const app = express();
 
 const PORT = 3000;
@@ -29,14 +29,20 @@ res.sendFile(createPath('index'))
  })
 
  app.get('/task',(req,res)=>{
+    const title = 'Task'
+
     res.sendFile(createPath('task'))
     res.status(200);
  })
  app.get('/tasks',(req,res)=>{
+    const title = 'Tasks'
+
     res.sendFile(createPath('tasks'))
     res.status(200);
  })
  app.get('/add-task',(req,res)=>{
+    const title = 'Add-task'
+
     res.sendFile(createPath('add-task'))
     res.status(200);
  })
